@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;  /* 전체 높이 100% */
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.min-h-screen {
+  flex-grow: 1; /* between header and footer 공간으로 채우기기 */
+}

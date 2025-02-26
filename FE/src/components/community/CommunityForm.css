@@ -1,0 +1,38 @@
+.custom-quill-editor .ql-container {
+    min-height: 300px !important; /* 에디터 전체 높이 */
+    border-radius: 8px !important; /* 둥근 모서리 적용 */
+    background-color: white !important; /* 배경 흰색 */
+  }
+  
+  .custom-quill-editor .ql-editor {
+    min-height: 300px !important; /* 입력 영역의 최소 높이 */
+    font-size: 16px !important; /* 글자 크기 */
+    padding-bottom: 10px !important; /* 내부 여백 */
+  }
+
+  /* 🟢 추가: Quill 태그 스타일 */
+.ql-editor .tag {
+  display: inline-block;
+  background-color: #e5e7eb; /* Tailwind bg-gray-200 */
+  color: #374151; /* Tailwind text-gray-700 */
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+
+.tag-input-container {
+  margin-top: -10px; /* 🔹 웹 에디터와 태그 입력창 간격 줄이기 */
+  width: 100%; /* 🔹 태그 입력창을 Quill 에디터와 동일한 너비로 설정 */
+}
+
+.tag-input-field {
+  width: 100%; /* 🔹 태그 입력 필드가 웹 에디터와 동일한 크기로 확장되도록 설정 */
+  padding: 8px 12px;
+  border: 1px solid #d1d5db; /* Tailwind border-gray-300 */
+  border-radius: 8px;
+  background-color: #f9fafb; /* Tailwind bg-gray-100 */
+  outline: none;
+}
+  

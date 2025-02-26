@@ -1,0 +1,10 @@
+/* 스크롤바 숨기기를 위한 CSS */
+/* 메인페이지 Challenge 컴포넌트에서 사용 중 */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

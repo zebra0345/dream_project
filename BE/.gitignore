@@ -1,0 +1,33 @@
+
+# Gradle 관련
+.gradle/
+build/
+
+# IDE 설정 파일
+*.iml
+.idea/
+.vscode/
+
+# OS별 파일
+.DS_Store
+Thumbs.db
+
+# 로그 및 환경 파일
+*.log
+.env
+.env.*
+application.properties
+
+C:/SSAFY/uploads
+
+# 컴파일 산출물
+bin/
+out/
+*.class
+
+src/main/resources/*.properties
+
+# 기타
+*.war
+*.jar
+
